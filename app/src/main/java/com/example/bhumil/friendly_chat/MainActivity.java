@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
                         FriendlyMessage friendlyMessage=new FriendlyMessage(null,mUsername,download.toString());
 
                         mDatabaseReference.push().setValue(friendlyMessage);
-                        
+
 
                     }
                     else {
